@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+- Add detection support for Rails 8 (https://github.com/heroku/heroku-buildpack-ruby/pull/1498)
+- Support Node.js on ARM builds (https://github.com/heroku/heroku-buildpack-ruby/pull/1499)
+
+## [v280] - 2024-10-08
+
 - Ruby 3.4.0 is now available (https://github.com/heroku/heroku-buildpack-ruby/pull/1496)
 
 ## [v279] - 2024-09-04
@@ -1567,7 +1572,8 @@ Bugfixes:
 * Change gem detection to use lockfile parser
 * use `$RACK_ENV` when thin is detected for rack apps
 
-[unreleased]: https://github.com/heroku/heroku-buildpack-ruby/compare/v279...main
+[unreleased]: https://github.com/heroku/heroku-buildpack-ruby/compare/v280...main
+[v280]: https://github.com/heroku/heroku-buildpack-ruby/compare/v279...v280
 [v279]: https://github.com/heroku/heroku-buildpack-ruby/compare/v278...v279
 [v278]: https://github.com/heroku/heroku-buildpack-ruby/compare/v277...v278
 [v277]: https://github.com/heroku/heroku-buildpack-ruby/compare/v276...v277
